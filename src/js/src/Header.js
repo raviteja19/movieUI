@@ -1,19 +1,18 @@
 import React,{useState,useEffect} from 'react';
-
-function Header()
+import {withRouter} from 'react-router-dom';
+const  Header=(props)=>
 {
+
+
+const goHome=(e)=>{
+    e.preventDefault();
+    props.history.push('/')
+}
     return (
         <div className="navbar navbar-inverse">
-           <div className="applicationname">
-                Cinibuzz
-           </div>
-           <ul className="nav navbar-nav navbar-right">
-                <li><a href="#"> Movie</a></li>
-                <li><a href="#"> TV Shows</a></li>
-                <li><a href="#"> Kids</a></li>
-            </ul>
+           <div className="appname" onClick={goHome}>Cinibuzz</div>
         </div>
     );
 }
 
-export default Header;
+export default withRouter(Header);

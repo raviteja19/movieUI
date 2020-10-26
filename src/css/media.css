@@ -1,0 +1,215 @@
+@media only screen and (min-width: 320px)
+{
+    .appname{
+        font-family: Baloo Bhai;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 57px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #6855D6;
+
+    }
+    .customnav{
+        grid-template-columns: 40% 60%;
+        grid-template-rows: 100%;
+    }
+    .movie .serachbox .text{
+
+    }
+    .movie .serachbox {
+        position: absolute;
+        width: 100%;
+        height: 100px;
+        left: 0px;
+        top: 92px;
+        background: #F2F1F8;
+        border-radius: 16px;
+    }
+    .movie .serachbox .search{
+        grid-template-columns: 12% 60% 20%;
+    }
+    .movie .browsetext{
+        position: absolute;
+        height: 48px;
+       
+        left: 0px;
+        top: 221px;
+        font-size: 18px;
+        line-height: 24px;
+      }
+      .movie .category {
+        position: absolute;
+        display: grid;
+        grid-template-rows: 50%;
+        grid-template-columns: auto auto auto auto auto ;
+        width: 100%;
+          left: 0px;
+          top: 265px;
+    }
+ .movielist {
+        display: grid;
+        grid-template-rows: 100%;
+        grid-template-columns: 33% 33% auto;
+        top: 320px;
+        left: 13px;
+        height: 200px;
+    }
+ .movielist .moviename{
+        max-height: 155px;
+        margin-bottom: 55px;
+    }
+ .movielist .title{
+        display: block;
+
+        width: 100px;
+        font-weight: 600;
+        white-space: pre-line;
+    }
+ .movielist .imgsize{
+  
+        width: 100px;
+        height: 150px;
+        border-radius: 5px;
+        }
+
+        .moviedetail .imgdetailsize{
+            height: 165px;
+            width: 350px;
+            left: 5px;
+            /* top: 80px; */
+            border-radius: 16px;
+            position: relative;
+   
+        }
+        .moviedetail .overview{
+            /* top: 260px; */
+            left: 5px;
+        }
+        .moviedetail .keywords{
+            position: relative;
+            /* top: 500px; */
+            left: 5px;
+        }
+        .moviedetail .recommendation{
+            position: relative;
+            /* top: 500px; */
+            left: 5px;
+        }
+        .moviedetail .recommendation .movielist{
+            top: 22px;
+            left: 0px;
+        }
+}
+
+
+@media only screen and (min-width: 481px)
+{
+    
+}
+
+
+@media only screen and (min-width: 768px)
+{
+    
+}
+
+@media only screen and (min-width: 980px)
+{
+    .customnav{
+        grid-template-columns: 80% 20%;
+        grid-template-rows: 100%;
+    }   
+    .movie .serachbox {
+    position: absolute;
+    width: 1084px;
+    height: 100px;
+    left: 112px;
+    top: 86px;
+    background: #F2F1F8;
+    border-radius: 16px;
+    }
+
+    .movie .serachbox .search{
+        grid-template-columns: 20% 60% 20%;
+    }
+    .movie .browsetext{
+        position: absolute;
+        height: 48px;
+        left: 112px;
+        top: 221px;
+        font-size: 21px;
+        line-height: 48px;
+      }
+      .movie .category {
+          position: absolute;
+          display: grid;
+          grid-template-rows: 100%;
+          grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+          width: 72%;
+            left: 112px;
+            top: 265px;
+      }
+ .movielist {
+        display: grid;
+        grid-template-rows: 100%;
+        grid-template-columns: 20% 20% 20% 20% 20%;
+        top:320px;
+        left: 112px;
+        min-height: 340px;      
+    }
+ .movielist .moviename{
+        max-height: 290px;
+        margin-bottom: 41px;
+    }
+ .movielist .title{
+       display: block;
+        width: 200px;
+    }
+ .movielist .imgsize{
+  
+        width: 200px;
+        height: 250px;
+        border-radius: 5px;
+        }
+
+        .moviedetail .imgdetailsize{
+            position: relative;
+            height: 250px;
+        width: 900px;
+        left: 178px;
+        /* top: 80px; */
+        border-radius: 16px;
+   
+        }
+        .moviedetail .overview{
+            /* top: 350px; */
+            padding-left: 180px;
+        }
+        .moviedetail .keywords{
+            position: relative;
+            /* top: 586px; */
+            padding-left: 180px;
+        }
+        .moviedetail .recommendation{
+            position: relative;
+            /* top: 586px; */
+            padding-left: 180px;
+            margin-bottom: 5%;
+        }
+        .moviedetail .recommendation .movielist{
+            padding-left: 180px;
+        }
+        .appname{
+            font-family: Baloo Bhai;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 57px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #6855D6;
+    
+        }
+}

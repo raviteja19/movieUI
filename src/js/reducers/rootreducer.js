@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux';
-import  {Landing} from './Reducer';
+import  {Landing,getMovies,moviedetail,keywords,recommendation} from './Reducer';
 
-const rootReducer=combineReducers({Landing});
+const rootReducer=combineReducers({Landing,getMovies,moviedetail,keywords,recommendation});
 
 export default rootReducer;
